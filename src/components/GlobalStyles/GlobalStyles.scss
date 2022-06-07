@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
 
+:root {
+  //defaultLayout:
+  --default-layout-header-hey: 60px;
+  --default-layout-width: 1150px;
+}
 * {
   padding: 0;
   margin: 0;
