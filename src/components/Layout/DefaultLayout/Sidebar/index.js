@@ -6,7 +6,9 @@ import classNames from 'classnames/bind'
 const style = classNames.bind(styles)
 const Sidebar = () => {
     return (
-        <div>Sidebar</div>
+        <aside className={style('wrapper')}>
+            <div>Sidebar</div>
+        </aside>
     )
 }
 
