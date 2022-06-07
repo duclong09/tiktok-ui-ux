@@ -9,9 +9,7 @@ const Header = () => {
     return (
         <header className={style("wrapper")}>
             <div className={style("inner")}>
-                <div className={style("logo")}>
-                    <img src={images.logo} alt="Tiktok" />
-                </div>
+                <img src={images.logo} alt="Tiktok" />
                 <div className={style("search")}>
                     <input placeholder="Search accounts and videos" spellCheck={false} />
                     <button className={style("clear")}>
@@ -23,7 +21,6 @@ const Header = () => {
                     </button>
                 </div>
                 <div className={style('actions')}>
-
                 </div>
             </div>
         </header>
