@@ -20,7 +20,7 @@ const Header = () => {
 
     useEffect(() => {
         setTimeout(() => {
-            //fake api
+            //done api
             setSearchResult([1, 2, 3]);
         }, 0);
     }, []);
