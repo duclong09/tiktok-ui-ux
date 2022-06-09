@@ -4,6 +4,7 @@ import { DefaultLayout } from "./components/Layout";
 import { publicRoutes } from "./router";
 import './components/GlobalStyles/GlobalStyles.scss'
 
+
 function App() {
   return (
     <Router>
@@ -29,6 +30,7 @@ function App() {
               />
             );
           })}
+
         </Routes>
       </div>
     </Router>
