@@ -4,7 +4,7 @@ import Sidebar from './Sidebar'
 import styles from './DefaultLayout.module.scss'
 import classNames from 'classnames/bind'
 
-
+//luon luon khai báo style nam trong nay
 const style = classNames.bind(styles)
 const DefaultLayout = ({ children }) => {
     return (
